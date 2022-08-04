@@ -1,0 +1,145 @@
+.headerWidget{
+    font-size: large;
+    color: red;
+    align-content: center;
+    
+}
+
+#widgetBar{
+    height: -1px;
+    width: 1350px;
+    
+    background: rgb(92, 83, 83);
+}
+
+#header{
+    height:250px;
+    /*background: #aaa;*/
+}
+.top-image{
+    height: 249px ;
+    width: 1350px; ;
+}
+
+#cart{
+    text-align: center;
+    color: darkorange;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.d-flex{
+    width: 145px;
+    height: 98px;
+}
+
+.carts .table{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+}
+.carts .table thead tr th{
+    border-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 0px;
+}
+
+.carts .table thead tr td{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    align-self: center;
+}
+
+.carts .table tbody tr td .main .d-flex{
+    padding-right: 30px;
+
+}
+.remove:hover{
+    cursor: pointer;
+    width:16px;
+    height:16px; 
+    fill:currentColor;
+}
+.carts .table tbody tr td .main .d-flex img{
+    border: 3px solid #000;
+    border-radius: 3px;
+}
+.carts .table tbody tr td .main .des{
+    vertical-align: middle;
+    align-self: center;
+}
+.carts .table tbody tr td .main .des p{
+    margin-bottom: 0px;
+}
+.carts .table tbody tr td h6{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.carts .table tbody tr td .counter{
+    margin-bottom: 0px;
+}
+.counter{
+    border: 1px solid #000;
+    display: inline-block;
+    position: relative;
+}
+.carts .table tbody tr td .counter input{
+    width: 150px;
+    padding-left: 10px;
+    height: 30px;
+    outline: none;
+    box-shadow: none;
+}
+.checkout ul{
+    border: 2px solid pink;
+    background: #f3f3f3;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.checkout ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252525;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.checkout ul li.subtotal{
+    font-weight: lighter;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+    padding-bottom: 14px;
+}
+.checkout ul li.subtotal span{
+    font-weight: bold;
+}
+.checkout ul li .cart-Total{
+    padding-top: 10px;
+}
+.checkout ul li .cart-Total span{
+    color: #e7ab3c;
+}
+.checkout ul li span{
+    float: right;
+}
+.checkout .proceed-btn{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: #252525;
+    text-transform: uppercase;
+    padding: 15px 25px 14px 25px;
+    display: block;
+    text-align: center;
+}
+.add{
+    height: 10px;
+    width: 50px;
+    background-color: aquamarine;
+    
+}

@@ -1,0 +1,5 @@
+Tailwind CSS
+https://tailwindcss.com/
+
+Tailwind Forms is a collection of components for building forms in Tailwind CSS.
+https://github.com/tailwindlabs/tailwindcss-forms

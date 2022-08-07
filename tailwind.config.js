@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "sips-blue": "#98c5e9",
-        "sips-color": "#001838",
+        "sips-light-blue": "#98c5e9",
+        "sips-dark-blue": "#001838",
+        "sips-orange": "#ea580c",
       },
     },
   },

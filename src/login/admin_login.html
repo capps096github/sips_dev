@@ -14,20 +14,31 @@
     <!-- JS -->
     <script src="../sips.js"></script>
   </head>
-  <body class="bg-cover bg-center" style="background-image: url('/images/louis-hansel-645Z491UJ08-unsplash.jpg')">
-  <body class="bg-[url('/images/louis-hansel-645Z491UJ08-unsplash.jpg')]">
-    <section class="flex flex-col justify-between h-screen space-y-10">
+     <body class="bg-blue-100">
+      <section class="flex flex-col justify-between h-screen space-y-10">
       <!-- Main Content -->
       <main class="mx-auto sm:max-w-4xl max-w-4xl px-4 sm:mt-5 sm:px-6 md:mt-8 lg:mt-10 lg:px-8 xl:mt-14">
         <div
-          class="sm:text-center text-center items-center transition-colors duration-500 text-sips-orange hover:text-blue-300">
+          class="sm:text-center text-center items-center transition-colors duration-500 text-sips-dark-blue hover:text-sips-orange">
           <!-- Center Logo -->
           <div onclick="goToSplash()" title="SIPS"
-            class="hover:cursor-pointer flex justify-center items-center mt-6 mb-10 text-blue-300 hover:text-sips-orange">
-            <svg class="fill-current w-24 h-24" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M22.856 6.912c-1.36 5.26-6.115 9.959-12.541 12.443.977 1.273 4.071 3.382 5.837 3.892 4.578-1.691 7.848-6.081 7.848-11.247 0-1.821-.418-3.542-1.144-5.088m-15.224 6.699c.119 1.538.613 2.921 1.355 4.094 6.817-2.445 11.584-7.587 12.474-13.067-.824-1.058-1.818-1.975-2.946-2.706-1.437 6.91-7.647 10.345-10.883 11.679m-2.045-1.045c-1.216-1.41-2.604-2.484-5.347-2.96-.157.774-.24 1.574-.24 2.394 0 6.628 5.372 12 12 12 .496 0 .981-.039 1.461-.097-3.253-1.323-8.032-5.669-7.874-11.337m1.78-1.022c1.209-.534 2.74-1.34 4.222-2.485-2.185-2.84-5.239-4.997-8.252-5.349-1.085 1.133-1.946 2.478-2.522 3.968 3.384.647 5.127 2.152 6.552 3.866m-2.356-9.285c1.969-1.416 4.378-2.259 6.989-2.259 1.647 0 3.216.333 4.645.934-.45 2.861-1.835 5.102-3.537 6.793-2.105-2.675-5.203-4.78-8.097-5.468" />
-            </svg>
+            class="hover:cursor-pointer flex justify-center items-center mt-6 mb-10 text-sips-dark-blue hover:text-sips-orange">
+            <svg
+            class="w-60 h-30 m-4 fill-current"
+            width="249"
+            height="108"
+            viewBox="0 0 249 108"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.44 84.536C27.76 84.536 24.368 84.12 21.264 83.288C18.16 82.488 15.376 81.48 12.912 80.264C10.48 79.016 8.384 77.736 6.624 76.424C4.864 75.112 3.472 73.96 2.448 72.968L10.416 60.104C11.472 61.032 12.736 62.072 14.208 63.224C15.68 64.376 17.328 65.48 19.152 66.536C20.976 67.56 22.944 68.424 25.056 69.128C27.2 69.8 29.472 70.136 31.872 70.136C34.112 70.136 36.08 69.784 37.776 69.08C39.504 68.376 40.864 67.336 41.856 65.96C42.848 64.552 43.344 62.808 43.344 60.728C43.344 58.84 42.944 57.24 42.144 55.928C41.344 54.584 40.16 53.384 38.592 52.328C37.056 51.24 35.152 50.184 32.88 49.16C30.64 48.104 28.08 46.952 25.2 45.704C23.056 44.744 21.008 43.656 19.056 42.44C17.136 41.192 15.424 39.752 13.92 38.12C12.416 36.488 11.216 34.648 10.32 32.6C9.456 30.52 9.024 28.2 9.024 25.64C9.024 22.6 9.632 19.688 10.848 16.904C12.064 14.12 13.792 11.64 16.032 9.464C18.304 7.288 20.992 5.56 24.096 4.27999C27.232 3 30.72 2.36 34.56 2.36C37.44 2.36 40.32 2.744 43.2 3.51199C46.08 4.27999 48.768 5.288 51.264 6.536C53.76 7.784 55.872 9.144 57.6 10.616L51.12 22.808C49.744 21.624 48.176 20.568 46.416 19.64C44.688 18.68 42.832 17.912 40.848 17.336C38.896 16.76 36.912 16.472 34.896 16.472C32.624 16.472 30.688 16.872 29.088 17.672C27.52 18.472 26.304 19.544 25.44 20.888C24.608 22.2 24.192 23.672 24.192 25.304C24.192 26.648 24.464 27.8 25.008 28.76C25.584 29.688 26.384 30.504 27.408 31.208C28.432 31.88 29.664 32.536 31.104 33.176C32.544 33.784 34.128 34.44 35.856 35.144C39.568 36.712 42.928 38.264 45.936 39.8C48.944 41.336 51.52 43.048 53.664 44.936C55.808 46.792 57.44 48.968 58.56 51.464C59.712 53.96 60.288 56.936 60.288 60.392C60.288 65.448 59.072 69.784 56.64 73.4C54.24 77.016 50.88 79.784 46.56 81.704C42.24 83.592 37.2 84.536 31.44 84.536ZM127.988 83V3.8H154.964C160.116 3.8 164.692 4.696 168.692 6.488C172.692 8.27999 175.844 10.952 178.148 14.504C180.452 18.024 181.604 22.424 181.604 27.704C181.604 32.952 180.452 37.432 178.148 41.144C175.844 44.856 172.692 47.704 168.692 49.688C164.692 51.64 160.116 52.616 154.964 52.616H143.54V83H127.988ZM143.54 40.184H150.164C152.884 40.184 155.38 39.784 157.652 38.984C159.956 38.184 161.812 36.904 163.22 35.144C164.628 33.384 165.332 31.064 165.332 28.184C165.332 25.272 164.628 22.952 163.22 21.224C161.812 19.464 159.956 18.2 157.652 17.432C155.38 16.632 152.884 16.232 150.164 16.232H143.54V40.184ZM214.721 84.536C211.041 84.536 207.649 84.12 204.545 83.288C201.441 82.488 198.657 81.48 196.193 80.264C193.761 79.016 191.665 77.736 189.905 76.424C188.145 75.112 186.753 73.96 185.729 72.968L193.697 60.104C194.753 61.032 196.017 62.072 197.489 63.224C198.961 64.376 200.609 65.48 202.433 66.536C204.257 67.56 206.225 68.424 208.337 69.128C210.481 69.8 212.753 70.136 215.153 70.136C217.393 70.136 219.361 69.784 221.057 69.08C222.785 68.376 224.145 67.336 225.137 65.96C226.129 64.552 226.625 62.808 226.625 60.728C226.625 58.84 226.225 57.24 225.425 55.928C224.625 54.584 223.441 53.384 221.873 52.328C220.337 51.24 218.433 50.184 216.161 49.16C213.921 48.104 211.361 46.952 208.481 45.704C206.337 44.744 204.289 43.656 202.337 42.44C200.417 41.192 198.705 39.752 197.201 38.12C195.697 36.488 194.497 34.648 193.601 32.6C192.737 30.52 192.305 28.2 192.305 25.64C192.305 22.6 192.913 19.688 194.129 16.904C195.345 14.12 197.073 11.64 199.313 9.464C201.585 7.288 204.273 5.56 207.377 4.27999C210.513 3 214.001 2.36 217.841 2.36C220.721 2.36 223.601 2.744 226.481 3.51199C229.361 4.27999 232.049 5.288 234.545 6.536C237.041 7.784 239.153 9.144 240.881 10.616L234.401 22.808C233.025 21.624 231.457 20.568 229.697 19.64C227.969 18.68 226.113 17.912 224.129 17.336C222.177 16.76 220.193 16.472 218.177 16.472C215.905 16.472 213.969 16.872 212.369 17.672C210.801 18.472 209.585 19.544 208.721 20.888C207.889 22.2 207.473 23.672 207.473 25.304C207.473 26.648 207.745 27.8 208.289 28.76C208.865 29.688 209.665 30.504 210.689 31.208C211.713 31.88 212.945 32.536 214.385 33.176C215.825 33.784 217.409 34.44 219.137 35.144C222.849 36.712 226.209 38.264 229.217 39.8C232.225 41.336 234.801 43.048 236.945 44.936C239.089 46.792 240.721 48.968 241.841 51.464C242.993 53.96 243.569 56.936 243.569 60.392C243.569 65.448 242.353 69.784 239.921 73.4C237.521 77.016 234.161 79.784 229.841 81.704C225.521 83.592 220.481 84.536 214.721 84.536Z"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M109.792 83H75.2084L68.2917 27.6667H116.708L109.792 83ZM88.1771 63.9792C89.6089 63.9792 90.7709 65.1412 90.7709 66.5729C90.7709 68.0047 89.6089 69.1667 88.1771 69.1667C86.7454 69.1667 85.5834 68.0047 85.5834 66.5729C85.5834 65.1412 86.7454 63.9792 88.1771 63.9792ZM99.4167 55.3333C101.326 55.3333 102.875 56.8827 102.875 58.7917C102.875 60.7007 101.326 62.25 99.4167 62.25C97.5077 62.25 95.9584 60.7007 95.9584 58.7917C95.9584 56.8827 97.5077 55.3333 99.4167 55.3333ZM87.3125 44.9583C90.176 44.9583 92.5 47.2823 92.5 50.1458C92.5 53.0093 90.176 55.3333 87.3125 55.3333C84.449 55.3333 82.125 53.0093 82.125 50.1458C82.125 47.2823 84.449 44.9583 87.3125 44.9583ZM93.1398 13.8333L100.305 0L105.005 2.19258L98.8634 13.8333H113.385C113.385 17.0219 117.161 19.4289 120.167 19.4289V24.2083H64.8334V19.4289C67.8421 19.4289 71.75 17.0185 71.75 13.8333H93.1398Z"
+            />
+          </svg>
           </div>
 
           <p class="text-2xl tracking-tight font-extrabold">
@@ -36,7 +47,7 @@
 
           <h2 class="text-3xl tracking-tight mt-4 font-extrabold sm:text-4xl md:text-5xl mx-auto">
             Please use your
-            <span class="text-sips color-300 hover:text-sips-light-blue underline xl:inline">Admin Account Details</span>
+            <span class="text-sips-orange hover:text-sips-dark-blue underline xl:inline">Admin Account Details</span>
             to Login
           </h2>
 
@@ -57,29 +68,7 @@
               </label>
 
               
-<<<<<<< HEAD
    
-=======
-
-        <!-- Admin Name -->
-        <label class="block mt-4">
-            <span class="block text-sm font-medium text-sips-dark-blue">Admin Name</span>
-
-            <input type="text" placeholder="Your Admin Name e.g John Doe, Mary Claus, Marvin Steven"
-              class="text-sips-dark-blue mt-1 w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-sips-orange focus:ring-1 focus:ring-sips-orange"
-              required />
-          </label>
-
-          <!-- Email -->
-        <label class="block mt-4">
-            <span class="block text-sm font-medium text-sips-dark-blue">Email</span>
-
-            <input type="text" placeholder="Your Email e.g johndoe@gmail.com, maryclaus@gmail.com"
-              class="text-sips-dark-blue mt-1 w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-sm shadow-sm placeholder-gray-400 focus:outline-none focus:border-sips-orange focus:ring-1 focus:ring-sips-orange"
-              required />
-          </label>
-         
->>>>>>> d128303331cd895fc7c4b01b6eda374999eeca19
 
               <!-- Password -->
               <label class="block mt-4">
@@ -95,7 +84,7 @@
                 <div class="flex items-center">
                   <input id="remember-me" name="remember-me" type="checkbox"
                     class="h-4 w-4 text-sips-dark-blue focus:ring-orange-500 border-gray-300 rounded" />
-                  <label for="remember-me" class="ml-2 block text-sm text-white">
+                  <label for="remember-me" class="ml-2 block text-sm text-sips-dark-blue">
                     Remember me always
                   </label>
                 </div>
@@ -105,10 +94,7 @@
               <button type="submit" onclick="goToAdminDashboard()"
                 class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-bold rounded-md text-slate-900 bg-sips-light-blue hover:bg-sips-light-blue transition-colors duration-300">
                 <span class="absolute left-0 inset-y-0 flex items-center pl-3">
-                  <svg class="fill-current h-5 w-5" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" aria-hidden="true"
-                      d="M22.856 6.912c-1.36 5.26-6.115 9.959-12.541 12.443.977 1.273 4.071 3.382 5.837 3.892 4.578-1.691 7.848-6.081 7.848-11.247 0-1.821-.418-3.542-1.144-5.088m-15.224 6.699c.119 1.538.613 2.921 1.355 4.094 6.817-2.445 11.584-7.587 12.474-13.067-.824-1.058-1.818-1.975-2.946-2.706-1.437 6.91-7.647 10.345-10.883 11.679m-2.045-1.045c-1.216-1.41-2.604-2.484-5.347-2.96-.157.774-.24 1.574-.24 2.394 0 6.628 5.372 12 12 12 .496 0 .981-.039 1.461-.097-3.253-1.323-8.032-5.669-7.874-11.337m1.78-1.022c1.209-.534 2.74-1.34 4.222-2.485-2.185-2.84-5.239-4.997-8.252-5.349-1.085 1.133-1.946 2.478-2.522 3.968 3.384.647 5.127 2.152 6.552 3.866m-2.356-9.285c1.969-1.416 4.378-2.259 6.989-2.259 1.647 0 3.216.333 4.645.934-.45 2.861-1.835 5.102-3.537 6.793-2.105-2.675-5.203-4.78-8.097-5.468" />
-                  </svg>
+                  
                 </span>
                 Login
               </button>
@@ -119,17 +105,17 @@
                   class="tracking-tight text-sips-orange sm:mt-2 sm:text-lg md:mt-2 p-4 lg:mx-0 text-center border-b-2 border-dashed border-white hover:border-orange-500">
                   Don't have an account?
                   <span onclick="goToRegister('login')"
-                    class="font-extrabold text-blue-300 hover:cursor-pointer ml-2 underline hover:text-orange-500 hover:underline duration-300"
-                    title="Create a Nois Account">
+                    class="font-extrabold text-sips-dark-blue hover:cursor-pointer ml-2 underline hover:text-orange-500 hover:underline duration-300"
+                    title="Create a Sips Account">
                     Create one here.
                   </span>
                 </p>
 
                 <!-- Student -->
-                <p class="tracking-tight font-bold text-blue-300 sm:mt-4 sm:text-lg md:mt-4 mt-4 lg:mx-0 text-center">
+                <p class="tracking-tight font-bold text-sips-dark-blue sm:mt-4 sm:text-lg md:mt-4 mt-4 lg:mx-0 text-center">
                   Are you a Customer ?
                   <span onclick="goToCustomerLogin()"
-                    class="hover:cursor-pointer text-sips-orange ml-2 underline hover:text-orange-500 hover:underline duration-300"
+                    class="hover:cursor-pointer text-sips-orange ml-2 underline hover:text-sips-dark-blue hover:underline duration-300"
                     title="Log In as Admin">
                     Log In as Customer Instead.
                   </span>

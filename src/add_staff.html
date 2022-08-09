@@ -65,9 +65,9 @@
         <div class="items-center justify-center mt-10">
           <div class="max-w-xl mx-auto">
             <form class="space-y-6 ">
-              <!-- User Code -->
+              <!-- User ID -->
               <label class="block mt-4">
-                <span class="block text-sm font-medium text-white">Staff Code</span>
+                <span class="block text-sm font-medium text-white">Staff ID</span>
                 <input type="text" name="usercode" placeholder="Your User Code e.g 2345SP, 2358SP,0568SP"
                   class="w-full px-3 py-2 mt-1 text-sm text-blue-100 bg-white border border-white rounded-md shadow-sm placeholder-sips-dark-blue focus:outline-none focus:border-sips-lighttext-sips-light-blue focus:ring-1 focus:ring-sips-lighttext-sips-light-blue"
                   required />
@@ -94,8 +94,37 @@
                   required />
               </label>
 
-
-
+              <!--category line-->
+              <div class="mt-6  items-start">
+                <label for="category" class="block text-lg  font-bold text-sips-dark-blue">Product Line <span
+                    class="text-sm font-medium text-white">Product Line</span></label>
+    
+                <!-- long -->
+                <label for="soda" class="mt-1">
+                  <input class="border-gray-300 text-sips-orange focus:ring-orange-500" type="radio" name="category"
+                    id="soda" value="Soda" />
+    
+                  <span class="ml-2 hover\:text-sm font-medium text-white">LONG</span>
+                </label>
+    
+                <!-- medium -->
+                <label for="juice" class="mt-1">
+                  <input class="border-gray-300 text-sips-orange focus:ring-orange-500" type="radio" name="category"
+                    id="juice" value="Juice" />
+    
+                  <span class="ml-2 text-sm font-medium text-white">MEDIUM</span>
+                </label>
+    
+                <!-- short -->
+                <label for="wine" class="mt-1">
+                  <input class="border-gray-300 text-sips-orange focus:ring-orange-500" type="radio" name="category"
+                    id="wine" value="Wine" />
+    
+                  <span class="ml-2 text-sm font-medium text-white">SHORT</span>
+                </label>
+    
+              </div>
+              
               <!-- Submit Button -->
               <button type="submit" name="register_btn"
                 class="relative flex justify-center w-full px-4 py-2 text-sm font-bold transition-colors duration-300 border border-transparent rounded-md bg-sips-light-blue group text-sips-dark-blue">

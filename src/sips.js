@@ -39,6 +39,11 @@ function goToCustomersLogin() {
   location.href = "customers_login.html";
 }
 
+// * Go to Market 
+function goToMarketPlace() {
+  location.href = "../home/market_place.html";
+}
+
 // * Go to Admin Register
 function goToAdminLogin() {
   location.href = "admin_login.html";

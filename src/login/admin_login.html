@@ -55,7 +55,7 @@
         <!-- Form div -->
         <div class="mt-10 justify-center items-center">
           <div class="max-w-xl mx-auto">
-            <form class="space-y-6">
+            <form class="space-y-6 text-left">
 
 
               <!-- Admin ID -->
@@ -79,16 +79,7 @@
                   required />
               </label>
 
-              <!-- Remember -->
-              <div class="flex items-center justify-between">
-                <div class="flex items-center">
-                  <input id="remember-me" name="remember-me" type="checkbox"
-                    class="h-4 w-4 text-sips-dark-blue focus:ring-orange-500 border-gray-300 rounded" />
-                  <label for="remember-me" class="ml-2 block text-sm text-sips-dark-blue">
-                    Remember me always
-                  </label>
-                </div>
-              </div>
+                        
 
               <!-- Submit Button -->
               <button type="submit" onclick="goToAdminDashboard()"
@@ -102,7 +93,7 @@
               <div class="transition-colors duration-300">
                 <!-- Log in -->
                 <p
-                  class="tracking-tight text-sips-orange sm:mt-2 sm:text-lg md:mt-2 p-4 lg:mx-0 text-center border-b-2 border-dashed border-white hover:border-orange-500">
+                  class="tracking-tight text-sips-orange sm:mt-2 sm:text-lg md:mt-2 p-4 lg:mx-0 text-center border-b-2 border-dashed border-sips-dark-blue hover:border-orange-500">
                   Don't have an account?
                   <span onclick="goToRegister('login')"
                     class="font-extrabold text-sips-dark-blue hover:cursor-pointer ml-2 underline hover:text-orange-500 hover:underline duration-300"
@@ -111,7 +102,7 @@
                   </span>
                 </p>
 
-                <!-- Student -->
+                <!-- Customer -->
                 <p class="tracking-tight font-bold text-sips-dark-blue sm:mt-4 sm:text-lg md:mt-4 mt-4 lg:mx-0 text-center">
                   Are you a Customer ?
                   <span onclick="goToCustomerLogin()"
